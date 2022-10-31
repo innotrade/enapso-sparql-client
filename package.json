@@ -1,27 +1,28 @@
 {
-  "name": "sparql-client-2",
-  "version": "0.6.3",
+  "name": "@innotrade/sparql-client-2",
+  "version": "1.0.1",
   "author": "Eddie Antonio Santos <easantos@ualberta.ca> (http://eddieantonio.ca/)",
   "contributors": [
     "Martin Franke <martin@semiwa.org> (http://semiwa.org)",
     "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be> (http://semweb.mmlab.be/)",
-    "Thomas Fritz <fritztho@gmail.com> (http://fritzthomas.com)"
+    "Thomas Fritz <fritztho@gmail.com> (http://fritzthomas.com)",
+    "Muhammad Yasir",
+    "Alexander Schulze"
   ],
   "dependencies": {
-    "denodeify": "^1.2.1",
-    "lodash": "^4.0.1",
-    "promise-nodeify": "^0.1.0",
-    "request": "^2.40.0"
+    "axios": "^1.1.3",
+    "lodash": "^4.17.21",
+    "promise-nodeify": "^3.0.1"
   },
   "description": "SPARQL Client for JavaScript",
   "devDependencies": {
-    "eslint": "^3.11.0",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "jasmine": "^2.3.1",
-    "nock": "^2.5.0",
-    "traceur": "0.0.90"
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "jasmine": "^4.5.0",
+    "nock": "^13.2.9",
+    "traceur": "0.0.111"
   },
   "engines": {
     "node": ">= 0.10.0"
