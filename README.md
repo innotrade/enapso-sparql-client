@@ -3,7 +3,7 @@
 A SPARQL 1.1 client for JavaScript.
 
 ```javascript
-const { SparqlClient, SPARQL } = require("@innotrade/sparql-client-2");
+const { SparqlClient, SPARQL } = require("@innotrade/enapso-sparql-client");
 const client = new SparqlClient("http://dbpedia.org/sparql").register({
   db: "http://dbpedia.org/resource/",
   dbo: "http://dbpedia.org/ontology/",
@@ -59,7 +59,7 @@ query. All values are automatically converted into their SPARQL literal
 form, and any unsafe strings are escaped.
 
 ```javascript
-const SparqlClient = require("@innotrade/sparql-client-2");
+const SparqlClient = require("@innotrade/enapso-sparql-client");
 const SPARQL = SparqlClient.SPARQL;
 const endpoint = "http://dbpedia.org/sparql";
 
