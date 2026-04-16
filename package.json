@@ -1,6 +1,6 @@
 {
   "name": "@innotrade/enapso-sparql-client",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "author": "Eddie Antonio Santos <easantos@ualberta.ca> (http://eddieantonio.ca/)",
   "contributors": [
     "Martin Franke <martin@semiwa.org> (http://semiwa.org)",
@@ -10,14 +10,14 @@
     "Alexander Schulze"
   ],
   "dependencies": {
-    "axios": "1.9.0",
+    "axios": "1.15.0",
     "lodash": "^4.17.21",
     "promise-nodeify": "^3.0.1",
     "superagent": "^10.2.1"
   },
   "description": "SPARQL Client for JavaScript",
   "devDependencies": {
-    "jasmine": "^5.7.1",
+    "jasmine": "^6.2.0",
     "nock": "^14.0.4"
   },
   "engines": {
